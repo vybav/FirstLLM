@@ -2,3 +2,15 @@
 /.idea
 /.ipynb_checkpoints
 /.vscode
+
+# Virtual Environment files/ directories
+.env
+env/
+.venv
+venv/
+.LLMVM
+LLMVM/
+ENV/
+env.bak/
+venv.bak/
+LLMVM.bak/
