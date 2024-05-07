@@ -1,0 +1,26 @@
+# Byte-Compiled / optimized/ DLL files
+__pycache__/
+*.py[cod]
+*py.class
+
+# Project files
+.project
+.pydevproject
+.idea
+.vscode
+
+#Flask
+instance/
+.webassests-cache
+
+# Virtual Environment files/ directories
+.env
+env/
+.venv
+venv/
+.LLMVM
+LLMVM/
+ENV/
+env.bak/
+venv.bak/
+LLMVM.bak/
