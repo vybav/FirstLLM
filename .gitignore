@@ -2,6 +2,7 @@
 /.idea
 /.ipynb_checkpoints
 /.vscode
+ipynb_checkpoints/
 
 # Virtual Environment files/ directories
 .env
@@ -14,3 +15,33 @@ ENV/
 env.bak/
 venv.bak/
 LLMVM.bak/
+
+# Ignore model-related files
+/results/
+*.bin
+*.ckpt
+*.h5
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.pkl
+*.joblib
+*.model
+*.weights
+
+# Ignore logs
+/logs/
+*.log
+
+# Ignore checkpoints
+/checkpoints/
+
+# Ignore safetensors files
+*.safetensors
+
+# Ignore oth files
+*.pth
+
+# Ignore sate JSON files
+*.state.json
